@@ -1,0 +1,38 @@
+{
+  "name": "bloggyweb",
+  "version": "1.0.0",
+  "description": "Blog for users",
+  "main": "uiserver.js",
+  "scripts": {
+    "start": "node feserver.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/projectsworldx/BloggyWeb.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "ProjectX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/projectsworldx/BloggyWeb/issues"
+  },
+  "homepage": "https://github.com/projectsworldx/BloggyWeb#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5"
+  }
+}
