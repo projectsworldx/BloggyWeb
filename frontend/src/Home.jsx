@@ -10,7 +10,7 @@ class Root extends React.Component {
        const helloContinents = Array.from(continents, c => `Hello ${c}!`);
        const message = helloContinents.join(' '); */
         return (
-                    <h1>message88</h1> 
+                    <h1>message</h1> 
                 );
     }
 }

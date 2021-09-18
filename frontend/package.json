@@ -4,7 +4,8 @@
   "description": "Blog for users",
   "main": "uiserver.js",
   "scripts": {
-    "start": "node feserver.js",
+    "start": "nodemon -w node feserver.js",
+    "watch": "babel src --out-dir public --watch --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

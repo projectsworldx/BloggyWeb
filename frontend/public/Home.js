@@ -39,7 +39,7 @@ var Root = /*#__PURE__*/function (_React$Component) {
       /*  const continents = ['Africa','America','Asia','Australia','Europe'];
       const helloContinents = Array.from(continents, c => `Hello ${c}!`);
       const message = helloContinents.join(' '); */
-      return /*#__PURE__*/React.createElement("h1", null, "message88");
+      return /*#__PURE__*/React.createElement("h1", null, "message");
     }
   }]);
 
