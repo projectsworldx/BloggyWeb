@@ -2,6 +2,12 @@
 
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
+var _react = _interopRequireDefault(require("react"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -39,12 +45,13 @@ var Root = /*#__PURE__*/function (_React$Component) {
       /*  const continents = ['Africa','America','Asia','Australia','Europe'];
       const helloContinents = Array.from(continents, c => `Hello ${c}!`);
       const message = helloContinents.join(' '); */
-      return /*#__PURE__*/React.createElement("h1", null, "message");
+      return /*#__PURE__*/_react.default.createElement("h1", null, "message");
     }
   }]);
 
   return Root;
-}(React.Component);
+}(_react.default.Component);
 
-var root = /*#__PURE__*/React.createElement(Root, null);
-ReactDOM.render(root, document.getElementById('root'));
+var root = /*#__PURE__*/_react.default.createElement(Root, null);
+
+_reactDom.default.render(root, document.getElementById('root'));
